@@ -59,7 +59,7 @@ BTN.addEventListener('click', async () => {
   }
   BTN.disabled = true; BTN.textContent = '提交中...';
   try {
-    const resp = await fetch('https://tiangben-submit-kpblishhyx.cn-hangzhou.fcapp.run', {
+    const resp = await fetch('https://tiangben-submit-klrctciqhs.cn-hangzhou.fcapp.run', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({ industry: INDUSTRY, data })
     });
